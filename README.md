@@ -18,11 +18,6 @@ A simple Android application developed using **Kotlin** and **Android Studio** t
   <img src="screenshots/signin.png" alt="Sign In Screen" width="300"/>
 </p>
 
-> **Note:** Create a folder named `screenshots` in your repository and add your screenshots as:
->
-> - `signup.png`
-> - `signin.png`
-
 ---
 
 ## 🚀 Features
