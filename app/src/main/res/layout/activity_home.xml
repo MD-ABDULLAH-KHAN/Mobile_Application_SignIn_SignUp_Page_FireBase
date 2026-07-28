@@ -15,7 +15,9 @@
         android:layout_margin="20dp"
         android:textStyle="bold"
         android:textSize="25sp"
-        android:text="Welcome" />
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Contact Management App" />
 
     <TextView
         android:id="@+id/textView2"
@@ -25,23 +27,45 @@
         android:textStyle="bold"
         android:textSize="20sp"
         android:layout_gravity="center"
-        android:text="These are your details from our Database" />
+        android:gravity="center"
+        android:text="ADD CONTACT" />
 
-    <TextView
-        android:id="@+id/tvMail"
-        android:layout_width="300dp"
-        android:layout_gravity="center"
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="25sp"
-        android:layout_margin="20dp"
-        android:text="MAIL" />
-
-    <TextView
-        android:id="@+id/tvUnique"
-        android:layout_width="300dp"
-        android:layout_gravity="center"
-        android:layout_height="wrap_content"
-        android:textSize="25sp"
         android:layout_margin="10dp"
-        android:text="UNIQUE ID" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Phone Number" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
+        android:text="Add" />
+
+
 </LinearLayout>
